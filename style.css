@@ -1,1 +1,75 @@
+#back-ground {
+  background-size: cover;
+  width: 1400px;
+  height: 900px;
+}
 
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link {
+  padding-left: 4rem;
+  font-style: oblique;
+  color: white;
+  font-size: large;
+}
+.links {
+  position: absolute;
+  top: 8px;
+  right: 150px;
+}
+
+h1 {
+  font-style: oblique;
+  color: white;
+  font-size: 400%;
+}
+h3 {
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+h1:hover {
+  color: rgb(99, 13, 43);
+}
+h3:hover {
+  color: rgb(99, 13, 43);
+}
+
+.order-btn {
+  color: rgb(99, 13, 43);
+  top: 30px;
+  right: 100px;
+  background-color: white;
+  margin-right: 60%;
+  margin-left: 40%;
+  margin-top: 40%;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 8rem;
+  position: relative;
+}
+.order-btn:hover {
+  color: rgb(99, 13, 43);
+}
+
+.footer {
+  position: relative;
+  height: 140px;
+  width: 1400px;
+  background-color: rgb(156, 78, 6);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-style: oblique;
+}
+.footer-link {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-weight: bolder;
+}
