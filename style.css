@@ -6,9 +6,14 @@
 
 .centered {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.buttons {
+  position: absolute;
+  top: 20%;
+  left: 50%;
 }
 .link {
   padding-left: 4rem;
@@ -40,16 +45,17 @@ h3:hover {
 }
 
 .order-btn {
-  color: rgb(99, 13, 43);
+  color: white;
   top: 30px;
   right: 100px;
-  background-color: white;
-  margin-right: 60%;
-  margin-left: 40%;
+  background-color: black;
+  margin-left: 12%;
+  margin-right: 90%;
   margin-top: 40%;
   border-radius: 8px;
   font-size: 16px;
-  width: 8rem;
+  width: 10rem;
+  height: 3rem;
   position: relative;
 }
 .order-btn:hover {
@@ -72,4 +78,85 @@ h3:hover {
   margin-top: 4rem;
   margin-bottom: 4rem;
   font-weight: bolder;
+  align-content: space-around;
+}
+h5 {
+  color: white;
+  font-style: oblique;
+  text-align: center;
+}
+.form-div {
+  color: red;
+  background-color: black;
+  position: absolute;
+  height: 40%;
+  width: 20%;
+  top: 260px;
+  right: 40px;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+
+.submit-btn {
+  text-align: center;
+  align-content: center;
+  color: red;
+  margin-right: 50%;
+  margin-left: 40%;
+  margin-top: 60px;
+}
+.reservation-btn {
+  color: white;
+  top: 0px;
+  right: 100px;
+  background-color: black;
+  margin-right: 40%;
+  margin-left: 60%;
+  margin-top: 18%;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 10rem;
+  height: 3rem;
+  position: relative;
+}
+
+div.new-menu {
+  content: url(https://www.zegrahm.com/sites/zeg/files/styles/d2_hero_fp_scale_and_crop_2400x800/public/breakfast-hero.jpg?t=1JeObB&itok=i9XxPYkT);
+  width: 1400px;
+  height: 400px;
+}
+
+.menu-specials {
+  color: black;
+  font-weight: bold;
+}
+
+.box {
+  background-color: black;
+  position: absolute;
+  height: 40%;
+  width: 20%;
+  top: 240px;
+  right: 700px;
+  border-radius: 12px;
+}
+
+h4 {
+  font-style: oblique;
+  color: white;
+  font-size: 115%;
+  padding-left: 2rem;
+}
+
+h3 {
+  font-size: 160%;
+}
+
+/* input[type="text"] { */
+input {
+  width: 50%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
